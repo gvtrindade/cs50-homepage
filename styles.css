@@ -1,0 +1,60 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.menu-icon {
+  font-size: 40px;
+}
+
+.list-icon {
+  font-size: 24px;
+}
+
+.large-icon {
+  font-size: 128px;
+}
+
+.icon-grid {
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  gap: 0.5em;
+}
+
+.column-grid {
+  grid-template-columns: 25% 1fr;
+  padding: 1em;
+  gap: 0.5em;
+}
+
+.a-icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panels a {
+  margin-top: 1em;
+}
+
+.contacts a {
+  margin-top: 1em;
+}
+
+.contacts span {
+  font-size: 2rem;
+}
+
+.contact-icon {
+  font-size: 60px;
+}
